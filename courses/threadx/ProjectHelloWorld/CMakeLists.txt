@@ -19,3 +19,4 @@ add_subdirectory(${LIBS_DIR}/threadx lib)
 add_executable(${PROJECT} main.c)
 
 target_link_libraries(${PROJECT} PUBLIC azrtos::threadx)
+

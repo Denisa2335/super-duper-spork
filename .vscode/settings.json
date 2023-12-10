@@ -1,0 +1,33 @@
+{
+    "cmake.sourceDirectory": "/workspaces/azure-rtos-learn-samples/courses/threadx/ProjectHelloWorld",
+    "taskExplorer.exclude": [
+        "**/.vscode-test/**",
+        "**/Assets/**",
+        "**/bin/**",
+        "**/build/**",
+        "**/dist/**",
+        "**/doc/**",
+        "**/example/**",
+        "**/examples/**",
+        "**/ext/**",
+        "**/obj/**",
+        "**/out/**",
+        "**/output/**",
+        "**/packages/**",
+        "**/release/**",
+        "**/releases/**",
+        "**/samples/**",
+        "**/sdks/**",
+        "**/static/**",
+        "**/target/**",
+        "**/test/**",
+        "**/third_party/**",
+        "**/vendor/**",
+        "**/work/**",
+        "/workspaces/azure-rtos-learn-samples/.vscode/tasks.json"
+    ],
+    "files.associations": {
+        "stdio.h": "c",
+        "tx_trace.h": "c"
+    }
+}

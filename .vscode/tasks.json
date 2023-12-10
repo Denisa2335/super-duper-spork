@@ -125,6 +125,10 @@
                 {
                     "label": "08",
                     "value": "ProjectPriorityInversion"
+                },
+                {
+                    "label": "09",
+                    "value": "ProjectHelloWorld2"
                 }
             ],
             "default": "ProjectHelloWorld"

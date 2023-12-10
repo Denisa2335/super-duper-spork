@@ -170,14 +170,5 @@ void print_stats(ULONG invalue)
     tx_queue_info_get(&UrgentQueue, TX_NULL, &UrgentEnqueued, TX_NULL, TX_NULL, TX_NULL, TX_NULL);
     tx_queue_info_get(&RoutineQueue, TX_NULL, &RoutineEnqueued, TX_NULL, TX_NULL, TX_NULL, TX_NULL);
 
-    printf("\nProjectMessageQueues: 3 threads, 1 byte pool, 2 message queues, and 1 timer.\n\n");
-    printf("     Current Time:                   %lu\n", current_time);
-    printf("           Dispatcher counter:       %lu\n", Dispatcher_counter);
-    printf("               Urgent counter:       %lu\n", Urgent_counter);
-    printf("              Routine counter:       %lu\n", Routine_counter);
-    printf("          last message # sent:       %lu\n", DispatcherMessage);
-    printf("        Urgent message # recd:       %lu\n", UrgentMessage);
-    printf("         UrgentQueue contents:       %lu\n", UrgentEnqueued);
-    printf("       Routine message # recd:       %lu\n", RoutineMessage);
-    printf("        RoutineQueue contents:       %lu\n\n", RoutineEnqueued);
+    printf("Hello!");
 }
